@@ -1,0 +1,51 @@
+// mediaquerry.scss  should be added in the last of css files in app.jsx
+
+@media screen  and (921px<=width<=1075px){
+    .home3{
+        height: 180vh;
+        >div{
+            height: 150vh;
+        }
+    } 
+    
+
+    .home4{
+        height: 210vh;
+
+        >div{
+            height: 140vh;
+        }
+    }
+}
+
+@media screen  and (760px<=width<921px){
+    .home > main > h1{
+        font-size: 5rem;
+    }
+    .home2 > div{
+        width: 65%;
+    }
+
+    .home3{
+        height:192vh;
+        >div{
+            width: 85%;
+            height:180vh;
+        }
+    } 
+    
+
+    .home4{
+        height:180vh ;
+
+        >div{
+            height: 120vh;
+        }
+    }
+}
+
+// @media screen and(width=820px) {
+//     .home4 > div{
+//         width: 50vh;
+//     }
+// }

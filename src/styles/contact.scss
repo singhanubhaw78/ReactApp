@@ -1,0 +1,65 @@
+@import './colors.scss';
+
+.contact{
+    width: 100%;
+    height: 110vh;
+    background-color:$second;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >main{
+        background-color: $first;
+        height: 20rem;
+        width: 70%;
+        padding: 1.2rem;
+        border-radius: 0 200px 200px 0;
+
+        >form{
+            margin: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            >div{
+                height: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 80%;
+                margin: 0.5rem;
+
+                >label{
+                    font: 400 1.2rem $text1;
+                    width: 30%;
+                    margin: 0.1rem;
+                }
+                >input{
+                    align-self: stretch;
+                    width: 70%;
+                    padding: 0.2rem;
+                    border-radius: 5px;
+                    border: 1px solid rgba(123,123,123,0.6);
+                    outline: none;
+                }
+            }
+
+            >button{
+                margin:1.2rem 0 0 5rem;
+                padding: 0.3rem;
+                border: none;
+                border-radius: 5px;
+                background-color: $third;
+                color: $first;
+                width: 200px;
+                font: 500 0.8rem $text1;
+
+                &:hover{
+                    opacity: 0.8;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
